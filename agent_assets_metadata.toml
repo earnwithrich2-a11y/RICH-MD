@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "a5h_DEBH4noXqBLF5lK1z"
+uri = "file://attached_assets/generated_images/richk-md-logo.png"
+type = "image"
+title = "RICHK-MD Logo"
+description = "New black-and-gold RICHK-MD bot logo now installed in the project."
+logical_id = "832cf1c3-51dc-48fe-9708-38976758a3f1"
+content_hash = "sha256:bd42c1a66e0346a6286f8b2ebdd83983c4e4965be633e062bc5c270a1a31c421"
+size = 1312758
+mtime_ms = 1789967819901
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/repl:8f593f34-3f6f-4dd6-8029-42b992464999/832cf1c3-51dc-48fe-9708-38976758a3f1/9edc53bf-4a2e-4f9d-91e6-3049c1f1a413"
+storage_version_token = "1789967948443113"
+content_type = "image/png"

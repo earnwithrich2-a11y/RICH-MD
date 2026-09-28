@@ -1,0 +1,6 @@
+- [Command response performance](command-response-performance.md) — keep command reactions and replies non-blocking; future features must not add waits before dispatch.
+- [Post-merge dependency validation](post-merge-dependency-validation.md) — clean installs must remain firewall-safe and pass the startup smoke check after every merge.
+- [Rebranded self-updates](rebranded-self-updates.md) — accept only update archives with the new source layout; legacy upstream archives can restore old paths.
+- [Live session isolation](live-session-isolation.md) — startup probes share the bot's filesystem; they must never reset or import live authentication data.
+- [Deleted-message capture ordering](deleted-message-capture-ordering.md) — a revoke must not outrun the save of the message it deletes.
+- [Plugin test isolation](plugin-test-isolation.md) — real command imports can keep Node tests running after assertions pass; use a bounded child process.
